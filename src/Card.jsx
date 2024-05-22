@@ -44,7 +44,8 @@ const Card = ({ currentAuthorId }) => {
 
   return (
     <div className="fixed">
-      <img src="/images/Author.jpg" alt="Author profile pics" className="img" />
+       <img src={photo.url} alt="Author profile pics"  className="img"/>
+       
       <div className="body-fixed">
         <h1 className="rapper">{posts.title}</h1>
         <p className="space">{posts.body}</p>
